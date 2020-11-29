@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "sourceMap": true,
+        "strictNullChecks": false,
+        "noImplicitAny": true,
+        "module": "es2020",
+        "target": "es2019",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "esnext",
+            "es2020",
+        ],
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+    },
+    "include": [
+        "./src/"
+    ]
+}
